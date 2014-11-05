@@ -1,11 +1,12 @@
 /* RESET */
-html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}del,ins{text-decoration:none;}
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#FFF;}del,ins{text-decoration:none;}
 
 
 /* LAYOUT */
 
 .container {
-    max-width: 1280px;
+	max-width: 1280px;
+	background-color: #FFF;
 }
 
 .container:after {
@@ -37,22 +38,22 @@ html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pr
 
 body {
     font-family: minion-pro, serif;
-    color: #333;
-    font-size: 18px;
-    line-height: 1.75;
+    color: #444;
+    font-size: 26px;
+    line-height: 2.75;
     text-rendering: optimizeLegibility;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 
 h1 {
-    margin-bottom: 41px;
+    margin-bottom: 25px;
 }
 
 h1 a {
     display: block;
     height: 300px;
-    background: #DFDBC7;
+    background: #333;
     color: white;
     position: relative;
     letter-spacing: 1px;
@@ -68,8 +69,8 @@ h1, h2, h3 {
 
 h1 span {
     position: absolute;
-    bottom: 20px;
-    right: 50px;
+    bottom: -15px;
+    right: 10px;
     text-align: right;
 }
 
@@ -100,7 +101,10 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
+	background-color: #CD4548;
+	-webkit-box-shadow: 0px 0px #C73639;
+	box-shadow: 0px 0px #C73639;
 }
 
 abbr, acronym {
@@ -173,11 +177,11 @@ th {
 
 h2 .fb_iframe_widget,
 h2 .twitter-share-button {
-    float: right !important;
+    float: left !important;
     display: block !important;
-    height: 20px;
+    height: 30px;
     position: relative;
-    top: -44px;
+    top: 44px;
 }
 
 h2 .fb_iframe_widget span {
@@ -231,7 +235,3 @@ h2 .fb_iframe_widget span {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
 }
-
-
-
-
